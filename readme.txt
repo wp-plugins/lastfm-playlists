@@ -16,13 +16,17 @@ Displays the tracks from a user selected playlist created at last.fm
 1. Upload `lastfm.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Sign up for a last.fm api key at http://www.last.fm/api/account
-4. insert [lastfmplaylist:username:api key:playlist name] into a post to have the plugin pull the playlist through
+4. insert [lastfmplaylist:(last.fm username):(last.fm api key):(last.fm playlist name)] into a post to have the plugin pull the playlist through
 
 == Frequently Asked Questions ==
 
 = What is the last.fm API key? =
 
 The API key allows you to make requests to last.fm remotley
+
+= Can I Display Any Users Playlist> =
+
+Yes you can, as long as the username supplied is the same one that created the playlist the plugin will display it correctly
 
 == Screenshots ==
 
