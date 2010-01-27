@@ -81,9 +81,3 @@ function lastfm($content) {
 
 add_filter('the_content','lastfm');
 ?>
-
-if (!($twitterFeed = file_get_contents($feed))){
-	$tweet = "Unavailable";
-}else{
-	$tweet = parse_feed($twitterFeed);
-}
