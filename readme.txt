@@ -1,4 +1,4 @@
-=== last.fm plugins ===
+=== last.fm playlists ===
 Contributors: llygoden
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=11264648
 Tags: last.fm, last, fm, playlist
