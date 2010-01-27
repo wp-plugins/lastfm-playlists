@@ -24,7 +24,7 @@ Displays the tracks from a user selected playlist created at last.fm
 
 The API key allows you to make requests to last.fm remotley
 
-= Can I Display Any Users Playlist> =
+= Can I Display Any Users Playlist? =
 
 Yes you can, as long as the username supplied is the same one that created the playlist the plugin will display it correctly
 
@@ -37,7 +37,10 @@ Yes you can, as long as the username supplied is the same one that created the p
 = 1.0 =
 * Initial release.
 
+= 1.1 =
+* Implemented error checking into the code.
+
 == Upgrade Notice ==
 
-= 1.0 =
-* Initial release.
+= 1.1 =
+* Implemented error checking into the code.
