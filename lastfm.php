@@ -4,7 +4,7 @@ Plugin Name: last.fm Playlists
 Plugin URI: http://www.robmcghee.com/lastfm/
 Description: Display the tracklist of a playlist from a last.fm account
 Author: Rob McGhee
-Version: 1.1
+Version: 1.1.1
 Author URI: http://www.llygoden.com/
 */
 
@@ -28,7 +28,7 @@ function lastfm($content) {
 	
 	$replaced = $opentag . $user . $splitter . $api . $splitter . $playlist . $closetag; // the string that will be replaced
 	
-	if ($user == "" || $api == "" || $playlist = ""){ // check that info was added
+	if ($user == "" || $api == "" || $playlist == ""){ // check that info was added
 		$tracklist = "You must enter a valid last.fm Username, API Key and Playlist Name"; // error message for not having details
 	}else{
 	

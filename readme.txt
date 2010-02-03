@@ -2,9 +2,8 @@
 Contributors: llygoden
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=11264648
 Tags: last.fm, last, fm, playlist
-Requires at least: 2.0.0
+Requires at least: 2.8
 Tested up to: 2.9.1
-Stable tag: 1.0
 
 Displays the tracks from a user selected playlist created at last.fm
 
@@ -41,7 +40,10 @@ Yes you can, as long as the username supplied is the same one that created the p
 = 1.1 =
 * Implemented error checking into the code.
 
+= 1.1.1 =
+* Fixed bug that would never recognize a playlist.
+
 == Upgrade Notice ==
 
-= 1.1 =
-* Implemented error checking into the code.
+= 1.1.1 =
+* Fixed bug that would never recognize a playlist..
